@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 
 public class Algorithm2_test {
 
-    static Algorithm2 test;
+    private Algorithm2 test;
 
     private List<Integer>list;
     private List<Integer>list2;
@@ -75,7 +75,7 @@ public class Algorithm2_test {
     }
 
     @Test
-    public void oneTo100000Elements(){
+    public void fromOneTo100000Elements(){
         for(int i=1;i<=100000;i++)
             list.add(i);
         assertEquals(100001,test.solution(list));
@@ -86,7 +86,7 @@ public class Algorithm2_test {
     }
     @Test(expected = ArrayIndexOutOfBoundsException.class)
     public void TooLargeList(){
-        for(int i=0;i<123000;i++)
+        for(int i=0;i<127000;i++)
             list.add(i);
         test.solution(list);
     }
