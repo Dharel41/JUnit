@@ -74,29 +74,29 @@ public class Algorithm2_test {
         assertEquals(4,test.solution(list));
     }
 
-    @Test
+    @Test(timeout = 20000)
     public void fromOneTo100000Elements(){
         for(int i=1;i<=100000;i++)
             list.add(i);
         assertEquals(100001,test.solution(list));
     }
-    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    @Test(expected = ArrayIndexOutOfBoundsException.class, timeout = 1000)
     public void EmptyList(){
         test.solution(list);
     }
-    @Test(expected = ArrayIndexOutOfBoundsException.class)
+    @Test(expected = ArrayIndexOutOfBoundsException.class, timeout = 1000)
     public void TooLargeList(){
         for(int i=0;i<127000;i++)
             list.add(i);
         test.solution(list);
     }
 
-    @Test(expected = NullPointerException.class)
+    @Test(expected = NullPointerException.class, timeout = 1000)
     public void uninitializedList(){
         test.solution(list2);
     }
 
-    @Test(expected = ArithmeticException.class)
+    @Test(expected = ArithmeticException.class, timeout = 1000)
     public void outOfRangeElement(){
         list.add(-123);
         list.add(-1);
