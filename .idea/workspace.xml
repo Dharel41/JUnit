@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="6d703179-ca12-4159-9d56-e920dd37d6ad" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" afterPath="$PROJECT_DIR$/target/classes/Main.class" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/Algorithm2_test.class" afterPath="$PROJECT_DIR$/target/test-classes/Algorithm2_test.class" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/JunitTestSuite.java" afterPath="$PROJECT_DIR$/src/test/java/JunitTestSuite.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -70,8 +69,8 @@
       <file leaf-file-name="JunitTestSuite.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/JunitTestSuite.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -173,8 +172,8 @@
         <option value="$PROJECT_DIR$/src/test/java/Algorithm_test.java" />
         <option value="$PROJECT_DIR$/src/test/java/Algorithm2_test.java" />
         <option value="$PROJECT_DIR$/src/test/java/JunitTestCase.java" />
-        <option value="$PROJECT_DIR$/src/test/java/JunitTestSuite.java" />
         <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JunitTestSuite.java" />
       </list>
     </option>
   </component>
@@ -489,7 +488,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592755943738</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test Suite">
+      <created>1592755966285</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592755966285</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -561,7 +567,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Function Name Change" />
-    <option name="LAST_COMMIT_MESSAGE" value="Function Name Change" />
+    <MESSAGE value="Test Suite" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test Suite" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -979,8 +986,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JunitTestSuite.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="51">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
